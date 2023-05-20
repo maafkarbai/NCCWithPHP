@@ -1271,13 +1271,13 @@ input[type="submit"]:hover {
   left: -0.1rem;
   background: rgba(0, 0, 0, 0.8);
   width: 10rem;
-  position: sticky;
+  position: absolute;
   height: 100%;
   display: flex;
 }
 
-.content {
-  position: relative;
+.features-container {
+  position: inherit;
 }
 
 .sidebar {

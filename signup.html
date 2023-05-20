@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Reviews</title>
-    <link rel="stylesheet" href="CSS/features.css" />
+    <title>Welcome to gwsc</title>
+    <link rel="stylesheet" href="CSS/signup.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    
   </head>
   <body>
     <header>
@@ -19,14 +20,13 @@
         class="navbar flex-container px-5 py-1 fixed flex-justify-between flex-align-center overflow-hidden"
       >
         <a href="#"><img src="Images/LOGO.png" class="w-3 nav-logo" alt="LOGO" /></a>
-        
         <ul class="flex-container gap navlist" role="list">
           <li><a href="home.php" class="navlink">Home</a></li>
           <li><a href="information.php" class="navlink">Information</a></li>
           <li><a href="pitch_types.php" class="navlink">Pitch Types</a></li>
           <li><a href="reviews.php" class="navlink">Reviews</a></li>
           <li><a href="features.php" class="navlink">Features</a></li>
-          <li><a href="local_attractions.php" class="navlink">Local Attractions</a></li>
+          <li><a href="" class="navlink">Local Attractions</a></li>
           <li>
             <a href="contact.php" class="navlink">Contact Us</a>
           </li>
@@ -68,150 +68,35 @@
         </button>
       </nav>
     </header>
-    <div class="container-ad">
-      <aside class="sidebar"><br><br>
-        <h3>Explore Wearable Technologies</h3>
-        <ul class="gap-2 flex-container flex-column text-left w-full flex-align-content-end" role="list">
-          <li><a href="#">Fitness Trackers</a></li>
-          <li><a href="#">Smartwatches</a></li>
-          <li><a href="#">Augmented Reality Glasses</a></li>
-          <li><a href="#">Health Monitoring Devices</a></li>
-          <li><a href="#">Smart Clothing</a></li>
-        </ul>
-   
-    </div>
-    <section class="pitch-section py-10 px-20">  
-      <h2 class="w-full flex-justify-center text-center flex-align-center features-container">
-      Features      
-      </h2>
-      <div class="container text-bold">
-        <p class="text-bold large-text">Leisure Facilities:</p>
-
-        <div class="">
-          <h2 class="text-underline">Entertainment:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/music.jpg">
-          <img src="Images/GamesCamp.jpg">
-          <img src="Images/campingCinema.png">
+    <section class="px-19 py-10 signup">
+      <h1>Sign Up</h1>
+        <div class="signup-container flex-container flex-column">
+            <form action="">
+                <div class="">
+                <label for="Fnamesu">First Name</label>
+                <input type="text" name="fnamesu" id="fnamesu">
+                </div>
+                <div class="">
+                <label for="Lnamesu">Last Name</label>
+                <input type="text" name="lnamesu" id="lnamesu">
+                </div>
+                <div class="">
+                <label for="Emailsu">Email</label>
+                <input type="text" name="emailsu" id="emailsu">
+                </div>
+                <div class="flex-column flex-container">
+                <label for="passwordsu">Password</label>
+                <input type="password" class="py-2" name="passwordsu" id="passwordsu">
+                <label for="passwordsu">Confirm Password</label>
+                <input type="password" class="py-2" name="passwordsu" id="passwordsu">    
+            </div>
+            <br>
+            <br>
+            <button class="py-2">Signup</button>
+            </form>
         </div>
-          <p class="text-justify">Our site offers a range of entertainment options for guests to enjoy, including live music performances, movie nights, and interactive game zones.</p>
-        </div>
-        
-        <div class="">
-          <h2 class="text-underline">Sports Activities:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/Tennis.jpg">
-          <img src="Images/Pool.jpg">
-        </div>
-          <p class="text-justify">We have various sports facilities such as tennis courts, swimming pools, and a fitness center to keep you active during your stay.</p>
-        </div>
-        
-        <div class="">
-          <h2 class="text-underline">Recreational Areas:</h2>
-          <div class="grid-gallery">    
-          <img src="Images/Park.png">
-          <img src="Images/Picnic.jpg">
-        </div>
-          <p class="text-justify">Take advantage of our beautiful landscaped gardens, picnic spots, and walking trails for relaxation and leisurely strolls.</p>
-        </div>
-        
-      </div>
-      
-      <div class="container text-bold">
-        <p class="text-bold large-text">Amenities on Site:</p>
-        
-        <div class="">
-          <h2 class="text-underline">Car Parking:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/CampParking.jpg">
-          <img src="Images/CampPArking2.jpg">
-
-        </div>
-          <p class="text-justify">We provide ample parking space for guests, ensuring convenience and ease of access for your vehicles.</p>
-        </div>
-        
-        <div class="">
-          <h2 class="text-underline">Showers:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/Shower.jpg">
-        </div>
-          <p class="text-justify">Clean and well-maintained shower facilities are available on-site for your comfort and convenience.</p>
-        </div>
-        
-        <div class="">
-          <h2 class="text-underline">Internet Access:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/Wifi.jpg">
-        </div>
-          <p class="text-justify">Stay connected with complimentary high-speed Wi-Fi throughout the premises, allowing you to browse, work, or stream seamlessly.</p>
-        </div>
-        
-      </div>
-      
-      <div class="container text-bold">
-        <p class="text-bold large-text">Nearby Amenities:</p>
-        <div class="">
-          <h2 class="text-underline">Shopping Centers:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/Shopping.png">
-          <img src="Images/supermarket.png">
-          <img src="Images/Botique.png">
-        </div>
-          <p class="text-justify">Within close proximity, you'll find a variety of shopping centers offering a wide range of retail outlets, supermarkets, and boutique stores.</p>
-        </div>
-        
-        <div class="">
-          <h2 class="text-underline">Restaurants and Cafés:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/BBQ.jpg">
-          <img src="Images/Cafe.png">
-        </div>
-          <p class="text-justify">Indulge in a diverse culinary experience with an array of restaurants, cafes, and eateries located nearby, catering to different tastes and preferences.</p>
-        </div>
-        
-        <div class="">
-          <h2 class="text-underline" id="local-attractions">Local Attractions:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/Hiking.jpg" alt="">
-          <img src="Images/Museum.png">
-        </div>>
-          <p class="text-justify">Explore the area's attractions, including museums, parks, historical sites, and landmarks, all conveniently located within a short distance from our site.</p>
-        </div>
-        
-      </div>
-      
-      <div class="container text-bold">
-        <p class="text-bold large-text">Rules:</p>
-        
-        <div class="">
-          <h2 class="text-underline">Noise Control:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/Noise Control.png">
-        </div>
-          <p class="text-justify">We kindly request guests to keep noise levels to a minimum, especially during quiet hours, to ensure a peaceful and enjoyable environment for everyone.</p>
-        </div>
-        
-        <div class="">
-          <h2 class="text-underline">Pet Policy:</h2>
-          <div class="grid-gallery">  
-            <img src="Images/Pet1.jpg">
-            <img src="Images/Pet2.jpg">
-        </div>
-          <p class="text-justify">While we love pets, we have specific areas designated for them. Please refer to our pet policy to ensure compliance and the comfort of all guests.</p>
-        </div>
-        
-        <div class="">
-          <h2 class="text-underline">Smoking Policy:</h2>
-          <div class="grid-gallery">  
-          <img src="Images/SmokingArea.png">
-        </div>
-          <p class="text-justify">Our site maintains a strict no-smoking policy indoors. Designated smoking areas are available for guests who wish to smoke, ensuring a comfortable and smoke-free environment for all.</p>
-        </div>
-        
-      </div>
     </section>
   </body>
-</aside>
   <!--Footer Start-->
   <hr>
   <footer class="px-19 grid-container grid-cols-5 py-10 footer">
@@ -313,4 +198,5 @@
       ></iframe>
   </div>
 </footer>
+<!--Footer Start-->
 </html>

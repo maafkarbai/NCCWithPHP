@@ -1,7 +1,12 @@
 <?php 
   $con = mysqli_connect("localhost", "root");
   if($con){
-    echo "Form Submitted!";
+    echo 
+    '<script type="text/javascript">
+
+            window.onload = function () { alert("Form Submitted."); }
+
+</script>';
   }
   else{
     echo "No Connection!";

@@ -21,14 +21,14 @@
       >
         <a href="#"><img src="Images/LOGO.png" class="w-3 nav-logo" alt="LOGO" /></a>
         <ul class="flex-container gap navlist" role="list">
-          <li><a href="index.php" class="navlink">Home</a></li>
-          <li><a href="About.php" class="navlink">Information</a></li>
-          <li><a href="#" class="navlink">Pitch Types</a></li>
+          <li><a href="home.php" class="navlink">Home</a></li>
+          <li><a href="information.php" class="navlink">Information</a></li>
+          <li><a href="pitch_types.php" class="navlink">Pitch Types</a></li>
           <li><a href="reviews.php" class="navlink">Reviews</a></li>
-          <li><a href="#" class="navlink">Features</a></li>
-          <li><a href="#" class="navlink">Local Attractions</a></li>
+          <li><a href="features.php" class="navlink">Features</a></li>
+          <li><a href="local_attractions.php" class="navlink">Local Attractions</a></li>
           <li>
-            <a href="Contact.php" class="navlink">Contact Us</a>
+            <a href="contact.php" class="navlink">Contact Us</a>
           </li>
         </ul>
         <div class="p-1 searchbar flex-container flex-align-center gap-1">
@@ -68,36 +68,36 @@
         </button>
       </nav>
     </header>
-    <section class="slider">
-      <div class="carousel" data-carousel>
-        <button class="carousel-button prev" data-carousel-button="prev">
-          &larr;
-        </button>
-        <button class="carousel-button next" data-carousel-button="next">
-          &rarr;
-        </button>
-        <ul data-slides>
-          <li class="slide flex-container flex-column flex-align-center flex-justify-center" data-active>
-            <p class="absolute fxl-large-text slide-text text-white w-full text-center bg-blurry">Welcome To GWSC</p>
-            <img src="Images/Backgrounds/Camp.png" alt="" />
-          </li>
-          <li class="slide">
-            <img
-              src="Images/Backgrounds/pexels-jens-mahnke-776117.jpg"
-              alt=""
-            />
-          </li>
-          <li class="slide">
-            <img
-              src="Images/Backgrounds/pexels-baihaki-hine-4314207.jpg"
-              alt=""
-            />
-          </li>
-        </ul>
+      <section class="slider">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">
+            &larr;
+          </button>
+          <button class="carousel-button next" data-carousel-button="next">
+            &rarr;
+          </button>
+          <ul data-slides>
+            <li class="slide flex-container flex-column flex-align-center flex-justify-center" data-active>
+              <p class="absolute fxl-large-text slide-text text-white w-full text-center bg-blurry">Welcome To GWSC</p>
+              <img src="Images/Backgrounds/Camp.png" alt="" />
+            </li>
+            <li class="slide">
+              <img
+                src="Images/Backgrounds/pexels-jens-mahnke-776117.jpg"
+                alt=""
+              />
+            </li>
+            <li class="slide">
+              <img
+                src="Images/Backgrounds/pexels-baihaki-hine-4314207.jpg"
+                alt=""
+              />
+            </li>
+          </ul>
 
-        <script src="Javascript/carousel.js"></script>
-      </div>
-    </section>
+          <script src="Javascript/carousel.js"></script>
+        </div>
+      </section>
     <section class="px-19 py-10 featured">
       <h1>Featured</h1>
       <div class="side-section">
@@ -111,7 +111,6 @@
           <li class="category"><a href="#featured"><img src="Images/Google_Glass_with_frame-3295012861.png" class="w-14 rounded-full cover" alt=""></a></li>
         </ul>
       </div>
-      
     </section>
   </body>
   <!--Footer Start-->

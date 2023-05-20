@@ -178,6 +178,12 @@ select {
 
 /* Grid Utility Classes Start */
 
+@media (min-width: 768px) {
+  .grid-container {
+    display: grid;
+  }
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -305,9 +311,6 @@ select {
 
 .text-right {
   text-align: right;
-}
-.text-justify {
-  text-align: justify;
 }
 
 /* Text Utility Classes  End*/
@@ -1142,10 +1145,24 @@ overflow-hidden {
   }
 }
 
-.review-image {
-  width: 10rem;
-  object-fit: cover;
-  border-radius: 70%;
+/* Utility class for extra-large screens */
+@media (min-width: 1201px) {
+  .navbar {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    text-align: center;
+  }
+
+  .navlist {
+    font-size: small;
+    gap: 2rem;
+  }
+  .nav-logo {
+    width: 3rem;
+  }
+  .searchbar {
+    display: flex;
+  }
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -1184,81 +1201,27 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-/* Utility class for extra-large screens */
-@media (min-width: 1201px) {
-  .navbar {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    text-align: center;
-  }
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
 
-  .navlist {
-    font-size: small;
-    gap: 2rem;
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .nav-logo {
-    width: 3rem;
-  }
-  .searchbar {
-    display: flex; /* Utility class for extra-large screens */
-    @media (min-width: 1201px) {
-      .navbar {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-        text-align: center;
-      }
+}
 
-      .navlist {
-        font-size: small;
-        gap: 2rem;
-      }
-      .nav-logo {
-        width: 3rem;
-      }
-      .searchbar {
-        display: flex;
-      }
-    }
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 
 .header-image {
+  height: 40vh;
   object-fit: cover;
-  height: 50vh;
-}
-
-.text-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: justify;
-  padding: 2rem;
-  background: gray;
-  color: white;
-}
-
-.pitch-container {
-  display: grid;
-}
-
-.pitch-card {
-  text-align: center;
-  gap: 0.7rem;
-  min-width: 15rem;
-  max-width: 15rem;
-}
-
-.pitch-card .Pitch-name {
-  font-size: x-large;
-  font-weight: 900;
-  width: 100%;
-  text-align: center;
-}
-
-.avail-label {
-  font-size: x-large;
-  font-weight: 500;
-  width: 100%;
-  text-align: left;
 }

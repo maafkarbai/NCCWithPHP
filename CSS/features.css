@@ -1229,6 +1229,7 @@ input[type="submit"]:hover {
 @media (min-width: 577px) and (max-width: 768px) {
   /* CSS rules for medium screens */
   .grid-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
 

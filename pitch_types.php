@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Reviews</title>
-    <link rel="stylesheet" href="CSS/contact.css" />
+    <link rel="stylesheet" href="CSS/pitches.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +15,7 @@
   </head>
   <body>
     <header>
+      <!--  -->
       <nav
         class="navbar flex-container px-5 py-1 fixed flex-justify-between flex-align-center overflow-hidden"
       >
@@ -68,33 +69,38 @@
       </nav>
     </header>
     <section class="slider">
-    <section class="px-20 py-10">
+    <section class="px-19 py-10">
       <h2 class="w-full flex-justify-center text-center flex-align-center">
-        Contact Us
+        Pitch Types
       </h2>
-      <div class="container">
-        <form action="action_page.php" method="POST">
-        <div class="flex-container flex-column"> 
-          <label for="email">Email</label>
-          <input type="email"  class="py-2" id="email" name="email" placeholder="Your Email">
+      <div class="pitch-card-container">
+        <div class="pitch-card">
+          <img src="Images/P1.png" alt="Pitch 1" class="pitch-card-image cover">
+          <h3 class="pitch-card-title">Tent Pitch</h3>
+          <p class="pitch-card-description">Our suitable tents offer a cozy and comfortable camping experience. Enjoy the beauty of nature while having easy access to shared showers and toilets.</p>
           <br>
-          </div>
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="fname" placeholder="Your First Name">
-          
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lname" placeholder="Your Last Name">
-          
-          <label for="country">Country</label>
-          <input type="text" id="country" name="country" placeholder="Your Country">
-          
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write Something Here.." style="height:200px"></textarea>
-          
-          <input type="submit" value="Submit">
-        </form>
-
+          <br>
+          <p class="pitch-card-availability">Availability: Open all year</p>
+          <button>Book</button>
+        </div>
+      
+        <div class="pitch-card">
+          <img src="Images/Caravan.png" alt="Pitch 2" class="pitch-card-image cover">
+          <h3 class="pitch-card-title">Touring Caravan Pitch</h3>
+          <p class="pitch-card-description">Upgrade your camping experience with our caravan pitches. These spacious pitches come with electricity hook-ups, perfect for larger tents or campervans. You'll also have access to shared showers and toilets for your convenience.</p>
+          <p class="pitch-card-availability">Availability: Limited during peak seasons</p>
+          <button>Book</button>
+        </div>
+      
+        <div class="pitch-card">
+          <img src="Images/motoehome.png" alt="Pitch 3" class="pitch-card-image cover">
+          <h3 class="pitch-card-title">Motorhome Pitch</h3>
+          <p class="pitch-card-description">Our motorhome pitches are designed to accommodate groups of families. With plenty of space, you can enjoy a memorable camping trip together. Please note that advance booking is required for group pitches.</p>
+          <p class="pitch-card-availability">Availability: Limited, advance booking required</p>
+          <button>Book</button>
+        </div>
       </div>
+      
     </section>
   </body>
   <!--Footer Start-->

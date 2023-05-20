@@ -26,7 +26,7 @@
           <li><a href="pitch_types.php" class="navlink">Pitch Types</a></li>
           <li><a href="reviews.php" class="navlink">Reviews</a></li>
           <li><a href="features.php" class="navlink">Features</a></li>
-          <li><a href="local_attractions.php" class="navlink">Local Attractions</a></li>
+          <li><a href="" class="navlink">Local Attractions</a></li>
           <li>
             <a href="contact.php" class="navlink">Contact Us</a>
           </li>

@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to gwsc</title>
-    <link rel="stylesheet" href="CSS/localattr.css" />
+    <title>Our Reviews</title>
+    <link rel="stylesheet" href="CSS/pitches.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    
   </head>
   <body>
     <header>
+      <!--  -->
       <nav
         class="navbar flex-container px-5 py-1 fixed flex-justify-between flex-align-center overflow-hidden"
       >
@@ -69,48 +69,37 @@
       </nav>
     </header>
     <section class="slider">
-      <div class="carousel" data-carousel>
-        <button class="carousel-button prev" data-carousel-button="prev">
-          &larr;
-        </button>
-        <button class="carousel-button next" data-carousel-button="next">
-          &rarr;
-        </button>
-        <ul data-slides>
-          <li class="slide flex-container flex-column flex-align-center flex-justify-center" data-active>
-            <p class="absolute fxl-large-text slide-text text-white w-full text-center bg-blurry">Welcome To GWSC</p>
-            <img src="Images/Backgrounds/Camp.png" alt="" />
-          </li>
-          <li class="slide">
-            <img
-              src="Images/Backgrounds/pexels-jens-mahnke-776117.jpg"
-              alt=""
-            />
-          </li>
-          <li class="slide">
-            <img
-              src="Images/Backgrounds/pexels-baihaki-hine-4314207.jpg"
-              alt=""
-            />
-          </li>
-        </ul>
-
-        <script src="Javascript/carousel.js"></script>
+    <section class="px-19 py-10">
+      <h2 class="w-full flex-justify-center text-center flex-align-center">
+        Local Attractions
+      </h2>
+      <div class="pitch-card-container">
+        <div class="pitch-card">
+          <img src="Images/camping-ground.jpg" alt="Pitch 1" class="pitch-card-image cover">
+          <h3 class="pitch-card-title">Campgrounds and RV Parks:</h3>
+          <p class="pitch-card-description">Highlight nearby campgrounds and RV parks that offer a variety of camping options, such as tent sites, RV hookups, and amenities like showers, picnic areas, and fire pits. Include information about the scenic surroundings, proximity to hiking trails or lakes, and any special features or activities available at the campgrounds.</p>
+        </div>
+      
+        <div class="pitch-card">
+          <img src="Images/Kyak.png" alt="Pitch 2" class="pitch-card-image cover">
+          <h3 class="pitch-card-title">Outdoor Adventure:</h3>
+          <p class="pitch-card-description">Emphasize nearby outdoor adventure activities that cater to campers, such as canoeing or kayaking on nearby rivers or lakes, fishing spots, rock climbing areas, or off-road trails for biking or ATV riding. Mention any local outfitters or rental facilities that offer equipment and guides.</p>
+      
+        </div>
+      
+        <div class="pitch-card">
+          <img src="Images/SceiticSpots.png" alt="Pitch 3" class="pitch-card-image cover">
+          <h3 class="pitch-card-title">Nature Trails and Scenic Spots:</h3>
+          <p class="pitch-card-description">Highlight nature trails and scenic spots in the vicinity where campers can explore and appreciate the natural beauty of the area. Describe trails of varying difficulty levels, notable viewpoints, and points of interest along the way, such as waterfalls, wildlife viewing areas, or geological formations.</p>
+        
+        </div>
+        <div class="pitch-card">
+          <img src="Images/TugOfWar.jpg" alt="Pitch 3" class="pitch-card-image cover">
+          <h3 class="pitch-card-title">Local Events and Activities:</h3>
+          <p class="pitch-card-description">Provide information about local events or activities that are specifically catered to campers, such as campfire storytelling, stargazing events, guided nature walks, or outdoor workshops. Mention any seasonal events or festivals in the area that campers might enjoy during their stay.</p>
+        </div>
       </div>
-    </section>
-    <section class="px-19 py-10 featured">
-      <h1>Featured</h1>
-      <div class="side-section">
-        <h3 class="category-heading">Wearable Technology Categories</h3>
-        <ul class="category-list flex-container flex-justify-between flex-align-center gap-2" role="list">
-          <li class="category"><a href="#featured"><img src="Images/SmartWatch.jpg" class="w-14 cover" alt=""></a></li>
-          <li class="category"><a href="#featured"><img src="Images/Headlamp.jpeg" class="w-12 cover" alt=""></a></li>
-          <li class="category"><a href="#featured"><img src="Images/Bag.jpg" class="w-11 cover" alt=""></a></li>
-          <li class="category"><a href="#featured"><img src="Images/BP.png"  class="w-11 cover" alt=""></a></li>
-          <li class="category"><a href="#featured"><img src="Images/GPS.jpg" class="w-8 cover" alt=""></a></li>
-          <li class="category"><a href="#featured"><img src="Images/Google_Glass_with_frame-3295012861.png" class="w-14 rounded-full cover" alt=""></a></li>
-        </ul>
-      </div>
+      
     </section>
   </body>
   <!--Footer Start-->

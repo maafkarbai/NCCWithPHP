@@ -1224,12 +1224,25 @@ input[type="submit"]:hover {
 
 .grid-gallery {
   display: grid;
+  gap: 1.5rem;
+}
+
+.grid-gallery > img {
+  width: 30rem;
+  height: 20rem;
+  object-fit: cover;
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
   /* CSS rules for medium screens */
+
   .grid-gallery {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+  }
+  .grid-gallery > img {
+    width: 20rem;
+    height: 10rem;
+    object-fit: cover;
   }
 }
 
@@ -1246,5 +1259,6 @@ input[type="submit"]:hover {
 @media (min-width: 1201px) {
   /* CSS rules for extra-extra-large screens */
   .grid-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
   }
 }

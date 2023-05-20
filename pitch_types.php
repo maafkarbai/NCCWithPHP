@@ -93,7 +93,7 @@
         </div>
       
         <div class="pitch-card">
-          <img src="Images/motoehome.png" alt="Pitch 3" class="pitch-card-image cover">
+          <img src="Images/motorhome.png" alt="Pitch 3" class="pitch-card-image cover">
           <h3 class="pitch-card-title">Motorhome Pitch</h3>
           <p class="pitch-card-description">Our motorhome pitches are designed to accommodate groups of families. With plenty of space, you can enjoy a memorable camping trip together. Please note that advance booking is required for group pitches.</p>
           <p class="pitch-card-availability">Availability: Limited, advance booking required</p>

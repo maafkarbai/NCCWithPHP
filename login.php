@@ -30,6 +30,9 @@
           <li>
             <a href="contact.php" class="navlink">Contact Us</a>
           </li>
+          <li>
+            <a href="contact.php" class="navlink">Sign Up</a>
+          </li>
         </ul>
         <div class="p-1 searchbar flex-container flex-align-center gap-1">
           <input type="text" class="search-input" placeholder="Search" />
@@ -71,14 +74,14 @@
     <section class="px-19 py-10 signup">
       <h1>Sign In</h1>
         <div class="signup-container flex-container flex-column">
-            <form action="">
+            <form action="signup_action" method="POST">
                 <div class="">
                 <div class="">
-                <label for="Emailsu">Email</label>
-                <input type="text" name="emailsu" id="emailsu">
+                <label for="Emaillg">Email</label>
+                <input type="text" name="emaillg" id="emailsu">
                 </div>
                 <div class="flex-column flex-container">
-                <label for="passwordsu">Password</label>
+                <label for="passwordlg">Password</label>
                 <input type="password" class="py-2" name="passwordsu" id="passwordsu">   
             </div>
             <br>

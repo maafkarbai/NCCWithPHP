@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to gwsc</title>
-    <link rel="stylesheet" href="CSS/contact.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -53,7 +53,7 @@
             </svg>
           </button>
         </div>
-        <button class="toggle-button">
+        <button class="toggleButton" onclick="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -71,6 +71,22 @@
         </button>
       </nav>
     </header>
+    <div class="mobilenavbar" style="display: none;">
+      <ul class="mobile-navlist flex-container flex-column flex-align-center gap-1" style="z-index: 2; top: 1; position: absolute; background-color: white; width: 100%;" role="list">
+      <li><a href="home.php" class="navlink">Home</a></li>
+          <li><a href="information.php" class="navlink">Information</a></li>
+          <li><a href="pitch_types.php" class="navlink">Pitch Types</a></li>
+          <li><a href="reviews.php" class="navlink">Reviews</a></li>
+          <li><a href="features.php" class="navlink">Features</a></li>
+          <li><a href="" class="navlink">Local Attractions</a></li>
+          <li>
+            <a href="contact.php" class="navlink">Contact Us</a>
+          </li>
+          <li>
+            <a href="signup.php" class="navlink">Sign Up</a>
+          </li>
+      </ul>
+    </div>
       <section class="slider">
         <div class="carousel" data-carousel>
           <button class="carousel-button prev" data-carousel-button="prev">

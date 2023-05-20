@@ -72,6 +72,7 @@
         </button>
       </nav>
     </header>
+
     <section class="px-19 py-10 signup">
       <h1>Sign Up</h1>
         <div class="signup-container flex-container flex-column">

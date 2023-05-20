@@ -1247,7 +1247,10 @@ input[type="submit"]:hover {
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-  /* CSS rules for large screens */
+  .px-30 {
+    padding-left: 15rem;
+    padding-left: 15rem;
+  }
   .grid-gallery {
   }
 }
@@ -1261,4 +1264,40 @@ input[type="submit"]:hover {
   .grid-gallery {
     grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
   }
+}
+
+.container-ad {
+  padding-left: 1rem;
+  left: -0.1rem;
+  background: rgba(0, 0, 0, 0.8);
+  width: 10rem;
+  position: absolute;
+  height: 30rem;
+}
+
+.content {
+  position: relative;
+}
+
+.support .sidebar {
+  background-color: rgb(200, 208, 214);
+  font-size: 2em;
+  height: 1000px;
+  width: 360px;
+  float: left;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding-left: 45px;
+  padding-right: 15px;
+}
+
+.support {
+  display: flex;
+  position: absolute;
+}
+
+.pitch-section {
+  padding-left: 20rem;
 }

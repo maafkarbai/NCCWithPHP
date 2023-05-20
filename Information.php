@@ -33,6 +33,9 @@
           <li>
             <a href="contact.php" class="navlink">Sign Up</a>
           </li>
+          <li>
+          <a href="signup.php" class="navlink">Sign Up</a>       
+           </li>
         </ul>
         <div class="p-1 searchbar flex-container flex-align-center gap-1">
           <input type="text" class="search-input" placeholder="Search" />

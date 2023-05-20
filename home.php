@@ -31,7 +31,7 @@
             <a href="contact.php" class="navlink">Contact Us</a>
           </li>
           <li>
-            <a href="contact.php" class="navlink">Sign Up</a>
+            <a href="signup.php" class="navlink">Sign Up</a>
           </li>
         </ul>
         <div class="p-1 searchbar flex-container flex-align-center gap-1">

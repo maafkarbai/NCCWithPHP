@@ -1,5 +1,5 @@
-var toggleButton = document.getElementById("toggleButton");
-var mobileNavbar = document.querySelector("mobilenavbar");
+var toggleButton = document.getElementById("#toggle-button");
+var mobileNavbar = document.querySelector(".mobilenavbar");
 
 toggleButton.addEventListener("click", function () {
   if (mobileNavbar.style.display === "none") {

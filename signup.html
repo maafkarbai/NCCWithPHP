@@ -4,34 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Reviews</title>
-    <link rel="stylesheet" href="CSS/pitches.css" />
+    <title>Welcome to gwsc</title>
+    <link rel="stylesheet" href="CSS/signup.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    
   </head>
   <body>
     <header>
-      <!--  -->
       <nav
         class="navbar flex-container px-5 py-1 fixed flex-justify-between flex-align-center overflow-hidden"
       >
         <a href="#"><img src="Images/LOGO.png" class="w-3 nav-logo" alt="LOGO" /></a>
         <ul class="flex-container gap navlist" role="list">
-          <li><a href="home.php" class="navlink">Home</a></li>
-          <li><a href="information.php" class="navlink">Information</a></li>
-          <li><a href="pitch_types.php" class="navlink">Pitch Types</a></li>
-          <li><a href="reviews.php" class="navlink">Reviews</a></li>
-          <li><a href="features.php" class="navlink">Features</a></li>
-          <li><a href="local_attractions.php" class="navlink">Local Attractions</a></li>
+          <li><a href="home.html" class="navlink">Home</a></li>
+          <li><a href="information.html" class="navlink">Information</a></li>
+          <li><a href="pitch_types.html" class="navlink">Pitch Types</a></li>
+          <li><a href="reviews.html" class="navlink">Reviews</a></li>
+          <li><a href="features.html" class="navlink">Features</a></li>
+          <li><a href="local_attractions.html
+          " class="navlink">Local Attractions</a></li>
           <li>
-            <a href="contact.php" class="navlink">Contact Us</a>
+            <a href="contact.html" class="navlink">Contact Us</a>
           </li>
           <li>
-          <a href="signup.php" class="navlink">Sign Up</a>       
+          <a href="signup.html" class="navlink">Sign Up</a>       
            </li>
         </ul>
         <div class="p-1 searchbar flex-container flex-align-center gap-1">
@@ -71,39 +72,35 @@
         </button>
       </nav>
     </header>
-    <section class="slider">
-    <section class="px-19 py-10">
-      <h2 class="w-full flex-justify-center text-center flex-align-center">
-        Pitch Types
-      </h2>
-      <div class="pitch-card-container">
-        <div class="pitch-card">
-          <img src="Images/P1.png" alt="Pitch 1" class="pitch-card-image cover">
-          <h3 class="pitch-card-title">Tent Pitch</h3>
-          <p class="pitch-card-description">Our suitable tents offer a cozy and comfortable camping experience. Enjoy the beauty of nature while having easy access to shared showers and toilets.</p>
-          <br>
-          <br>
-          <p class="pitch-card-availability">Availability: Open all year</p>
-          <button>Book</button>
+
+    <section class="px-19 py-10 signup">
+      <h1>Sign Up</h1>
+        <div class="signup-container flex-container flex-column">
+            <form action="signup_action.php" method="post">
+                <div class="">
+                <label for="Fnamesu">First Name</label>
+                <input type="text" name="fnamesu" id="fnamesu">
+                </div>
+                <div class="">
+                <label for="Lnamesu">Last Name</label>
+                <input type="text" name="lnamesu" id="lnamesu">
+                </div>
+                <div class="">
+                <label for="Emailsu">Email</label>
+                <input type="text" name="emailsu" id="emailsu">
+                </div>
+                <div class="flex-column flex-container">
+                <label for="passwordsu">Password</label>
+                <input type="password" class="py-2" name="passwordsu" id="passwordsu">
+                <label for="confpasswordsu">Confirm Password</label>
+                <input type="password" class="py-2" name="confpasswordsu" id="passwordsu">    
+            </div>
+            <br>
+            <br>
+            <button class="py-2" type="submit">Signup</button>
+            <button class="py-2"><a href="login.html">Login Instead</a></button>
+            </form>
         </div>
-      
-        <div class="pitch-card">
-          <img src="Images/Caravan.png" alt="Pitch 2" class="pitch-card-image cover">
-          <h3 class="pitch-card-title">Touring Caravan Pitch</h3>
-          <p class="pitch-card-description">Upgrade your camping experience with our caravan pitches. These spacious pitches come with electricity hook-ups, perfect for larger tents or campervans. You'll also have access to shared showers and toilets for your convenience.</p>
-          <p class="pitch-card-availability">Availability: Limited during peak seasons</p>
-          <button>Book</button>
-        </div>
-      
-        <div class="pitch-card">
-          <img src="Images/motorhome.png" alt="Pitch 3" class="pitch-card-image cover">
-          <h3 class="pitch-card-title">Motorhome Pitch</h3>
-          <p class="pitch-card-description">Our motorhome pitches are designed to accommodate groups of families. With plenty of space, you can enjoy a memorable camping trip together. Please note that advance booking is required for group pitches.</p>
-          <p class="pitch-card-availability">Availability: Limited, advance booking required</p>
-          <button>Book</button>
-        </div>
-      </div>
-      
     </section>
   </body>
   <!--Footer Start-->
